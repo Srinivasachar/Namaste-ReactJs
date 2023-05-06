@@ -1,0 +1,2 @@
+export const LOGO_URL = "https://e7.pngegg.com/pngimages/8/979/png-clipart-graphics-delivery-illustration-motorcycle-delivery-food-logo-motorcycle.png"
+export const CDN_URL = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/"
