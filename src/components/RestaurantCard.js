@@ -8,11 +8,11 @@ const RestaurantCard = ({resObject}) => {
           src={CDN_URL+resObject.cloudinaryImageId}
         ></img>
         <h2>{resObject.name}</h2>
-        <h4>{resObject.Price}</h4>
-        <h4>{resObject.DeliveryTime + "min"}</h4>
-        <h4> 4.5 star </h4>
+        <h4>{resObject.costForTwoString}</h4>
+        <h4>{resObject.slaString}</h4>
+        <h4>{resObject.avgRating + " star"}</h4>
       </div>
-    );
+    )
   };
 
   export default RestaurantCard;
