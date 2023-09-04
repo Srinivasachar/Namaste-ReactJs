@@ -3,7 +3,7 @@ const Logo = () => {
     return (
       <div className="logo-container">
         <img
-          className="logo"
+          className="w-36"
           src={LOGO_URL}
         />
       </div>
